@@ -31,6 +31,41 @@
     color: rgb(58, 58, 58);
 }
 
+.slider-frame{
+    width: 1280;
+    height: auto;
+    margin: 50px auto 0;
+    overflow: hidden;
+}
+
+.slider-frame ul {
+    display: flex;
+    padding: 0;
+    width: 300%;
+
+    animation: slide 15s infinite alternate;
+}
+
+.slider-frame li{
+    list-style: none;
+    width: 100%;
+}
+
+.slider-frame img {
+    width: 100%;
+}
+
+@keyframes slide {
+    0%  {margin-left: 0%;}
+    35% {margin-left: 0%;}
+
+    40% {margin-left: -100%;}
+    65% {margin-left: -100%;}
+
+    70% {margin-left: -200%;}
+    95% {margin-left: -200%;}
+}
+
 .Bienvenidos{
     text-align: center;
     color: var(--text-color);
@@ -73,4 +108,24 @@
 
 .ig{
     background-color: white;
+}
+
+.productos{
+     display: flex;
+     justify-content: space-evenly;
+     background-color: gray;
+}
+.card{
+    width: 18rem;
+    display: flex;
+    margin: 20px;
+
+}
+
+.card img{
+    padding: 10px;
+}
+
+.card-body a{
+    text-align: center;
 }
