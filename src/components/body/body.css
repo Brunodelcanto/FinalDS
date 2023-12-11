@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Popins', sans-serif;
+}
+
+:root{
+    --bg-color: rgb(242, 251, 186);
+    --text-color: black;
+    --text-color2: white;
+    --primary-color: #965004;
+    --secondary-color: #c78800;
+}
+
+.listaMenu{
+    justify-content: space-evenly;
+    display: flex;
+    background-color: var(--secondary-color);
+    padding: 5px;
+    list-style-type: none;
+}
+
+.link{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.link:hover{
+    color: rgb(58, 58, 58);
+}
+
+.Bienvenidos{
+    text-align: center;
+    color: var(--text-color);
+}
+
+.Instagram{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    background-color: var(--secondary-color);
+}
+ .nombreIg{
+    color: var(--text-color2);
+    text-align: center;
+    font-size: 20px;
+ }
+
+ .estamos{
+    color: var(--text-color2);
+    text-align: center;
+    font-size: 20px;
+ }
+
+ .seguinos{
+    padding: 12px 18px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    color: var(--text-color2);
+    font-weight: 500;
+    cursor: pointer;
+    width: 160px;
+    height: 46px;
+    text-align: center;
+    background: transparent;
+    margin: 0 auto;
+    margin-top: 10px; 
+    margin-bottom: 10px;
+ }
+
+
+.ig{
+    background-color: white;
+}
